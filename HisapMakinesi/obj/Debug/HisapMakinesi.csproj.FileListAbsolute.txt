@@ -1,0 +1,16 @@
+C:\Users\alast\source\repos\HisapMakinesi\HisapMakinesi\bin\Debug\HisapMakinesi.exe.config
+C:\Users\alast\source\repos\HisapMakinesi\HisapMakinesi\bin\Debug\HisapMakinesi.exe
+C:\Users\alast\source\repos\HisapMakinesi\HisapMakinesi\bin\Debug\HisapMakinesi.pdb
+C:\Users\alast\source\repos\HisapMakinesi\HisapMakinesi\bin\Debug\Guna.UI2.dll
+C:\Users\alast\source\repos\HisapMakinesi\HisapMakinesi\obj\Debug\HisapMakinesi.csproj.AssemblyReference.cache
+C:\Users\alast\source\repos\HisapMakinesi\HisapMakinesi\obj\Debug\HisapMakinesi.Form1.resources
+C:\Users\alast\source\repos\HisapMakinesi\HisapMakinesi\obj\Debug\HisapMakinesi.Properties.Resources.resources
+C:\Users\alast\source\repos\HisapMakinesi\HisapMakinesi\obj\Debug\HisapMakinesi.csproj.GenerateResource.cache
+C:\Users\alast\source\repos\HisapMakinesi\HisapMakinesi\obj\Debug\HisapMakinesi.csproj.CoreCompileInputs.cache
+C:\Users\alast\source\repos\HisapMakinesi\HisapMakinesi\obj\Debug\HisapMakinesi.csproj.CopyComplete
+C:\Users\alast\source\repos\HisapMakinesi\HisapMakinesi\obj\Debug\HisapMakinesi.exe
+C:\Users\alast\source\repos\HisapMakinesi\HisapMakinesi\obj\Debug\HisapMakinesi.pdb
+C:\Users\alast\source\repos\HisapMakinesi\HisapMakinesi\bin\Debug\HisapMakinesi.exe.manifest
+C:\Users\alast\source\repos\HisapMakinesi\HisapMakinesi\bin\Debug\HisapMakinesi.application
+C:\Users\alast\source\repos\HisapMakinesi\HisapMakinesi\obj\Debug\HisapMakinesi.exe.manifest
+C:\Users\alast\source\repos\HisapMakinesi\HisapMakinesi\obj\Debug\HisapMakinesi.application
