@@ -733,31 +733,38 @@ namespace HisapMakinesi
             }
         }
 
-        private void btnKayıt_Click(object sender, EventArgs e)
-        {
-            //guna2Panel1.Visible = false;
-            //guna2Panel2.Visible = false;
-            //flowLayoutPanel1.Visible = true;
-            guna2Transition1.ShowSync(flowLayoutPanel1);
-            for (int i = 0; i < Ekler.Count; i++)
-            {
-                Label lblEkKayıt = new Label();
-                lblEkKayıt.ForeColor = lblEkSonuc.ForeColor;
-                lblEkKayıt.Size = lblSonuc.Size;
-                lblEkKayıt.Font = new Font("Segoe UI", 20);
-                lblEkKayıt.BackColor = lblEkSonuc.BackColor;
-                lblEkKayıt.TextAlign = ContentAlignment.TopRight;
-                lblEkKayıt.Text = Ekler[i];
-                flowLayoutPanel1.Controls.Add(lblEkKayıt);
-                Label lbl = new Label();
-                lbl.ForeColor = lblSonuc.ForeColor;
-                lbl.Text = Sonuçlar[i];
-                lbl.TextAlign = ContentAlignment.TopRight;
-                lbl.Font = lblSonuc.Font;
-                lbl.Size = lblSonuc.Size;
-                flowLayoutPanel1.Controls.Add(lbl);
-            }
-
-        }
+        
+        bool kayıtGosterildi = false;
+         private void btnKayıt_Click(object sender, EventArgs e)
+         {
+             //guna2Panel1.Visible = false;
+             //guna2Panel2.Visible = false;
+             //flowLayoutPanel1.Visible = true;
+             kayıtGosterildi = !kayıtGosterildi;
+             if (kayıtGosterildi)
+                 guna2Transition1.ShowSync(flowLayoutPanel1);
+             else
+                 guna2Transition1.HideSync(flowLayoutPanel1);
+        
+             for (int i = 0; i < Ekler.Count; i++)
+             {
+                 Label lblEkKayıt = new Label();
+                 lblEkKayıt.ForeColor = lblEkSonuc.ForeColor;
+                 lblEkKayıt.Size = lblSonuc.Size;
+                 lblEkKayıt.Font = new Font("Segoe UI", 20);
+                 lblEkKayıt.BackColor = lblEkSonuc.BackColor;
+                 lblEkKayıt.TextAlign = ContentAlignment.TopRight;
+                 lblEkKayıt.Text = Ekler[i];
+                 flowLayoutPanel1.Controls.Add(lblEkKayıt);
+                 Label lbl = new Label();
+                 lbl.ForeColor = lblSonuc.ForeColor;
+                 lbl.Text = Sonuçlar[i];
+                 lbl.TextAlign = ContentAlignment.TopRight;
+                 lbl.Font = lblSonuc.Font;
+                 lbl.Size = lblSonuc.Size;
+                 flowLayoutPanel1.Controls.Add(lbl);
+             }
+        
+         }
     }
 }
