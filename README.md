@@ -12,12 +12,12 @@ Projede arayüz tasarımı için Guna kütüphanesi kullanılmıştır. Guna, .N
 Uygulamayı açtığınızda, kullanıcı dostu bir ekran ile karşılaşırsınız.
 <div align = center >
   <img src = 'https://github.com/user-attachments/assets/9b10226a-15d0-4b32-a34d-5e6688107886' >
-  <img src='https://github.com/user-attachments/assets/6a4d169e-5bea-4321-a88b-77bdb6fb6e62'>
+  <img src='https://github.com/user-attachments/assets/b1fb994e-ee00-400a-867c-868e8b71f0d8'>
 </div>
 
 ### Dark Modu
 Gece modu kullanıcıya sürekli bir rahatlık sunar. Dark mod etkinleştirildiğinde, bu tercih uygulamayı kapatıp açılırsa bile korunur. Böylece, kullanıcı her kullanımda göz yormayan ve şık bir arayüzle karşılaşır.
 <div align = center >
-  <img src = 'https://github.com/user-attachments/assets/9b10226a-15d0-4b32-a34d-5e6688107886' >
-  <img src='https://github.com/user-attachments/assets/6a4d169e-5bea-4321-a88b-77bdb6fb6e62'>
+  <img src = 'https://github.com/user-attachments/assets/a5e2aa92-da5f-4ab1-a2f6-53871a0a793c' >
+  <img src='https://github.com/user-attachments/assets/332cd571-131c-475d-9552-9a48279f89a5'>
 </div>
