@@ -8,7 +8,7 @@ Bu proje, birinci sınıf bilgisayar mühendisliği öğrencisi olarak geliştir
 ## Arayüz ve Tasarım
 Projede arayüz tasarımı için Guna kütüphanesi kullanılmıştır. Guna, .NET platformunda kullanılabilen bir UI kütüphanesidir ve modern, estetik tasarım bileşenleri sunar. Bu kütüphane sayesinde, uygulamanın arayüzü daha çekici ve kullanıcı dostu hale getirilmiştir. Guna'nın sağladığı hazır bileşenler ve temalar, uygulamanın profesyonel bir görünüme kavuşmasını sağlamıştır.
 
-### Ana Ekran
+### Light Modu
 Uygulamayı açtığınızda, kullanıcı dostu bir ekran ile karşılaşırsınız.
 <div align = center >
   <img src = 'https://github.com/user-attachments/assets/9b10226a-15d0-4b32-a34d-5e6688107886' >
