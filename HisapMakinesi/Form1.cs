@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -30,6 +30,7 @@ namespace HisapMakinesi
             but = (Guna2CircleButton)sender;
             if (islem != "" || sonuc == 0)
                 Ek += but.Text;
+
             if (!Exp)
             {
                 lblSonuc.Text = lblSonuc.Text.Remove(lblSonuc.Text.Length - 1, 1) + but.Text;
@@ -171,7 +172,7 @@ namespace HisapMakinesi
                 }
                 else
                 {
-                    Ek += " " + butislem.Text + " ";"
+                    Ek += " " + butislem.Text + " ";
                 }
             }
             else
@@ -297,6 +298,7 @@ namespace HisapMakinesi
                 islem = "";
                 lblSonuc.Text = "0";
                 lblEkSonuc.Visible = false;
+                Ek = "";
             }
             else if (but.Text == "+/-")
             {
@@ -736,8 +738,6 @@ namespace HisapMakinesi
                 }
             }
         }
-
-        
         bool kayıtGosterildi = false;
         private void btnKayıt_Click(object sender, EventArgs e)
         {
