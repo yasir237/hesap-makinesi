@@ -80,3 +80,13 @@ Bu hesap makinesi, sadece temel dört işlemle sınırlı kalmaz. Bilimsel matem
 22. **Geçmiş Hesaplar:** Hesaplamaların geçmişini kaydedip, kullanıcıya düzgün ve şık bir şekilde sunar. Bu sayede kullanıcı, yaptığı hesaplamaları geçmişte kolayca görebilir ve erişebilir.
 23. **Silme Butonu:** Hesaplama ekranında en son girilen rakamı veya karakteri siler.
 
+
+## İndir
+
+Projenin çalıştırılabilir versiyonunu [buradan](https://github.com/yasir723/hesap-makinesi/releases/tag/v0.0.1) indirebilirsiniz.
+
+<div align = center >
+  <img src ='https://github.com/user-attachments/assets/7f01bf55-397a-4fb3-b3c8-86e52e87fa75'>
+</div>
+
+
