@@ -28,7 +28,8 @@ namespace HisapMakinesi
         private void btnNumralar_Click(object sender, EventArgs e)
         {
             but = (Guna2CircleButton)sender;
-            Ek += but.Text;
+            if (islem != "" || sonuc == 0)
+                Ek += but.Text;
             if (!Exp)
             {
                 lblSonuc.Text = lblSonuc.Text.Remove(lblSonuc.Text.Length - 1, 1) + but.Text;
@@ -170,10 +171,13 @@ namespace HisapMakinesi
                 }
                 else
                 {
-                    Ek += " " + butislem.Text + " ";
+                    Ek += " " + butislem.Text + " ";"
                 }
             }
-
+            else
+            {
+                Ek += " " + butislem.Text + " ";
+            }
             if (islem == "+")
             {
                 Sayı = (Convert.ToDouble(sonuc) + Convert.ToDouble(Sayı)).ToString();
@@ -734,40 +738,40 @@ namespace HisapMakinesi
         }
 
         
-         bool kayıtGosterildi = false;
-          private void btnKayıt_Click(object sender, EventArgs e)
-          {
-              //guna2Panel1.Visible = false;
-              //guna2Panel2.Visible = false;
-              //flowLayoutPanel1.Visible = true;
-              kayıtGosterildi = !kayıtGosterildi;
-              if (kayıtGosterildi)
-              {
-                  guna2Transition1.ShowSync(flowLayoutPanel1);
-                  for (int i = 0; i < Ekler.Count; i++)
-                  {
-                      Label lblEkKayıt = new Label();
-                      lblEkKayıt.ForeColor = lblEkSonuc.ForeColor;
-                      lblEkKayıt.Size = lblSonuc.Size;
-                      lblEkKayıt.Font = new Font("Segoe UI", 20);
-                      lblEkKayıt.BackColor = lblEkSonuc.BackColor;
-                      lblEkKayıt.TextAlign = ContentAlignment.TopRight;
-                      lblEkKayıt.Text = Ekler[i];
-                      flowLayoutPanel1.Controls.Add(lblEkKayıt);
-                      Label lbl = new Label();
-                      lbl.ForeColor = lblSonuc.ForeColor;
-                      lbl.Text = Sonuçlar[i];
-                      lbl.TextAlign = ContentAlignment.TopRight;
-                      lbl.Font = lblSonuc.Font;
-                      lbl.Size = lblSonuc.Size;
-                      flowLayoutPanel1.Controls.Add(lbl);
-                  }
-              }
-              else
-              {
-                  guna2Transition1.HideSync(flowLayoutPanel1);
-                  flowLayoutPanel1.Controls.Clear();
-              }
-          }
+        bool kayıtGosterildi = false;
+        private void btnKayıt_Click(object sender, EventArgs e)
+        {
+            //guna2Panel1.Visible = false;
+            //guna2Panel2.Visible = false;
+            //flowLayoutPanel1.Visible = true;
+            kayıtGosterildi = !kayıtGosterildi;
+            if (kayıtGosterildi)
+            {
+                guna2Transition1.ShowSync(flowLayoutPanel1);
+                for (int i = Ekler.Count -1; i >= 0; i--)
+                {
+                    Label lblEkKayıt = new Label();
+                    lblEkKayıt.ForeColor = lblEkSonuc.ForeColor;
+                    lblEkKayıt.Size = lblSonuc.Size;
+                    lblEkKayıt.Font = new Font("Segoe UI", 20);
+                    lblEkKayıt.BackColor = lblEkSonuc.BackColor;
+                    lblEkKayıt.TextAlign = ContentAlignment.TopRight;
+                    lblEkKayıt.Text = Ekler[i];
+                    flowLayoutPanel1.Controls.Add(lblEkKayıt);
+                    Label lbl = new Label();
+                    lbl.ForeColor = lblSonuc.ForeColor;
+                    lbl.Text = Sonuçlar[i];
+                    lbl.TextAlign = ContentAlignment.TopRight;
+                    lbl.Font = lblSonuc.Font;
+                    lbl.Size = lblSonuc.Size;
+                    flowLayoutPanel1.Controls.Add(lbl);
+                }
+            }
+            else
+            {
+                guna2Transition1.HideSync(flowLayoutPanel1);
+                flowLayoutPanel1.Controls.Clear();
+            }
+        }
     }
 }
