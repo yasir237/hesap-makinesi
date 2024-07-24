@@ -1,5 +1,5 @@
 # Hesap Makinesi Projesi
-Bu proje, `birinci sınıftayken bilgisayar mühendisliği öğrencisi olarak geliştirdiğim bir hesap makinesi uygulamasıdır`. Uygulama, **C# dilinde ve Windows Forms Application** kullanılarak 2021 yılında geliştirilmiştir. Bu uygulama, kullanıcılara temel matematiksel işlemleri hızlı ve kolay bir şekilde gerçekleştirme imkanı sunar. Projeyi geliştirirken, arayüz tasarımında **Guna** adlı kütüphaneyi kullanarak modern ve şık bir kullanıcı deneyimi sağlamaya odaklandım.
+Bu proje, `1. sınıftayken bilgisayar mühendisliği öğrencisi olarak geliştirdiğim bir hesap makinesi uygulamasıdır`. Uygulama, **C# dilinde ve Windows Forms Application** kullanılarak 2021 yılında geliştirilmiştir. Bu uygulama, kullanıcılara temel matematiksel işlemleri hızlı ve kolay bir şekilde gerçekleştirme imkanı sunar. Projeyi geliştirirken, arayüz tasarımında **Guna** adlı kütüphaneyi kullanarak modern ve şık bir kullanıcı deneyimi sağlamaya odaklandım.
 
 <div align = center >
   <img src = 'https://github.com/user-attachments/assets/86c3f767-c0fe-4d66-9ac9-730d7fa6a886' >
