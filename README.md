@@ -83,10 +83,10 @@ Bu hesap makinesi, sadece temel dört işlemle sınırlı kalmaz. Bilimsel matem
 
 ## İndir
 
-### Projenin çalıştırılabilir versiyonunu [buradan](https://github.com/yasir723/hesap-makinesi/releases/tag/v0.0.1) indirebilirsiniz.
+### Projenin çalıştırılabilir versiyonunu [buradan](https://github.com/yasir237/hesap-makinesi/releases/tag/v0.0.1) indirebilirsiniz.
 
 <div align = center >
-  <img src ='https://github.com/user-attachments/assets/7f01bf55-397a-4fb3-b3c8-86e52e87fa75'>
+  <img src ='https://github.com/user-attachments/assets/af7d0fff-7cb3-4fe8-a0e8-83fd764e504e'>
 </div>
 
 
